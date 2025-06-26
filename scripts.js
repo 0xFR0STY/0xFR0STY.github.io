@@ -5,7 +5,7 @@ let fuse; // For fuzzy search
 
 // Function to fetch and sort GitHub projects from multiple users
 async function fetchAndSortProjects() {
-    const usernames = ['0xfr0sty'];
+    const usernames = ['0xFR0STY'];
     let allProjects = [];
 
     for (const username of usernames) {
